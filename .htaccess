@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>   
+RewriteEngine on
+
+SetEnvIfNoCase User-Agent ^libwww-perl bad_bot
+
+Order Allow,Deny  
+Allow from ALL   
+Deny from env=bad_bot
+
+Options -Indexes
+

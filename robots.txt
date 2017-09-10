@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /inc/
+Disallow: /js/
+Disallow: /archive/
+
+Sitemap: http://www.shubhamgulati.com/sitemap.xml
